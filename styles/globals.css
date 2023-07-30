@@ -1,0 +1,67 @@
+
+/* home.css */
+.nav1{
+  text-align: center;
+  /* position: fixed; */
+  background-color: rgb(223, 216, 216);
+  width: 100vw;
+}
+.like{
+  display: inline-flex;
+}
+.imgsec{
+  background-color: rgb(200, 211, 207);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #282c34;
+}
+
+
+/* profile.css */
+/* Assuming each grid item width is 25% of the container width for 4 columns in a row */
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gridItem {
+  width: 30%;
+  height: 35vw;
+  margin: 10px 0;
+  /* Add other styling as needed */
+}
+
+/* For list view, each item takes 100% width */
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  /* width: 40vw; */
+  padding: 0 20vw 0 20vw;
+  /* height: 60vh; */
+  text-align: center;
+}
+
+.listItem {
+  margin: 10px 0;
+  text-align: center;
+  /* height: 30vh; */
+
+ 
+}
+.proinfo{
+  margin: 2vw;
+  display: inline-flex;
+  padding: 2vw;
+
+}
+.darkMode {
+  background-color: #333;
+  color: #fff;
+}
+
+.darkMode button {
+  background-color: #444;
+  color: #fff;
+}
+
+/* Add any other styles for dark mode here */
